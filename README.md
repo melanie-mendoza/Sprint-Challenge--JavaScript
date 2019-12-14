@@ -36,6 +36,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
+Principle 1: Window/Global Object Binding. When in the global scope, the value of “this” will be the window/console Object.
+
+Principle 2: Implicit Binding. Whenever a preceding dot calls a function, the object before the dot is this.
+
+Principle 3: New binding. Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+
+Principle 4: Explicit binding. Whenever we use JavaScript’s call or apply method, this is explicitly defined.
+
+
 5. Why do we need super() in an extended class?
 
 ## Project Set up
