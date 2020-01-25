@@ -96,8 +96,8 @@ const contactInfo = graduates.map(grads => `${grads.first_name} ${grads.email}`)
 console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
-const unisWithUni = graduates.filter(function(grads) {
-  return grads.university.includes("Uni");
+let unisWithUni = universities.filter(function(grads) {
+  return grads.includes("Uni");
 });
 console.log(unisWithUni);
 
