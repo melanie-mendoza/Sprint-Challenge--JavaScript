@@ -77,7 +77,7 @@ const graduates = [
 
 // Request 1: Create a new array called universities that contains all the universities in the graduates array. This will be an array of strings.
 let universities = graduates.map(grads => grads.university); 
-console.log(universities);
+//console.log(universities);
 
 //Once you have the new array created, sort the universities alphabetically and log the result. 
 
