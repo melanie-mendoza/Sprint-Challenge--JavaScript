@@ -59,7 +59,8 @@ Principle 4: Explicit binding. Whenever we use JavaScript’s call or apply meth
 
 5. Why do we need super() in an extended class?
 
-It links the parent to a child.
+The super keyword is used to access and call functions on an object's parent.
+Essentially, it links the parent to a child.
 
 ## Project Set up
 
